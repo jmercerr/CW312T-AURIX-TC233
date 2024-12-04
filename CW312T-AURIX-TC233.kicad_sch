@@ -5385,6 +5385,12 @@
 		(uuid "01c42931-8358-4d64-9286-0b3b31899ee3")
 	)
 	(junction
+		(at 36.83 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02b0207a-a503-4444-b677-ff10c285455e")
+	)
+	(junction
 		(at 146.05 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5421,19 +5427,13 @@
 		(uuid "24906917-f55c-4e36-8087-38826c6a0d0a")
 	)
 	(junction
-		(at 36.83 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26b7e45d-d206-4b7c-b762-876733ba1c3b")
-	)
-	(junction
 		(at 187.96 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a52aeb1-87bb-4826-a688-56495d995296")
 	)
 	(junction
-		(at 254 43.18)
+		(at 274.32 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33dbd381-3e84-4ff8-b230-bf0865422b4e")
@@ -5479,6 +5479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f9df02-510b-4213-9005-d27aa8cc8241")
+	)
+	(junction
+		(at 38.1 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "702a37a5-3902-4049-8ee0-5b2f80edeb7d")
 	)
 	(junction
 		(at 86.36 62.23)
@@ -6004,7 +6010,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 163.83) (xy 29.21 168.91)
+			(xy 29.21 163.83) (xy 29.21 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6024,7 +6030,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 88.9) (xy 256.54 88.9)
+			(xy 245.11 88.9) (xy 276.86 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6091,16 +6097,6 @@
 			(type default)
 		)
 		(uuid "0e3f3e79-f68f-483a-a37a-6b3f4fdbf6e5")
-	)
-	(wire
-		(pts
-			(xy 172.72 41.91) (xy 172.72 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1044573a-bc73-461d-b69c-ae1840862f41")
 	)
 	(wire
 		(pts
@@ -6174,7 +6170,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 43.18) (xy 256.54 50.8)
+			(xy 172.72 25.4) (xy 172.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d748bb3-b07e-4399-8fa5-1d937bbdd961")
+	)
+	(wire
+		(pts
+			(xy 276.86 43.18) (xy 276.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6184,7 +6190,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 86.36) (xy 36.83 90.17)
+			(xy 38.1 36.83) (xy 38.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6204,7 +6210,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 185.42) (xy 92.71 172.72)
+			(xy 92.71 185.42) (xy 92.71 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6274,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 25.4) (xy 162.56 25.4)
+			(xy 162.56 25.4) (xy 172.72 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6294,7 +6300,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 20.32) (xy 82.55 36.83)
+			(xy 88.9 20.32) (xy 88.9 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6334,7 +6340,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 36.83) (xy 82.55 36.83)
+			(xy 78.74 36.83) (xy 88.9 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6524,16 +6530,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 167.64) (xy 36.83 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5522043c-c3bf-45e1-b1f3-beddb0ed49dd")
-	)
-	(wire
-		(pts
 			(xy 109.22 95.25) (xy 118.11 95.25)
 		)
 		(stroke
@@ -6571,16 +6567,6 @@
 			(type default)
 		)
 		(uuid "60cf0d2c-b90f-46b3-b95d-f1628e2f621b")
-	)
-	(wire
-		(pts
-			(xy 36.83 173.99) (xy 36.83 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6163dc38-867b-4cbf-9bbf-575cec828fd1")
 	)
 	(wire
 		(pts
@@ -6734,7 +6720,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 176.53) (xy 20.32 185.42)
+			(xy 20.32 177.8) (xy 20.32 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6824,7 +6810,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 50.8) (xy 251.46 43.18)
+			(xy 271.78 60.96) (xy 271.78 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6994,7 +6980,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 163.83) (xy 83.82 165.1)
+			(xy 83.82 163.83) (xy 83.82 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7004,7 +6990,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 163.83) (xy 92.71 165.1)
+			(xy 92.71 163.83) (xy 92.71 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7124,7 +7110,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 83.82) (xy 251.46 83.82)
+			(xy 245.11 83.82) (xy 271.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7144,7 +7130,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 44.45) (xy 82.55 49.53)
+			(xy 82.55 20.32) (xy 82.55 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7184,7 +7170,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 90.17) (xy 36.83 90.17)
+			(xy 40.64 90.17) (xy 38.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7234,7 +7220,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 22.86) (xy 254 43.18)
+			(xy 274.32 22.86) (xy 274.32 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7264,13 +7250,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 58.42) (xy 251.46 83.82)
+			(xy 36.83 173.99) (xy 36.83 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbd9e1fc-ce2a-4a7a-b867-2e72839ab4c6")
+		(uuid "ba47ebbd-6b93-48cc-8d1b-f896a124dd33")
 	)
 	(wire
 		(pts
@@ -7284,7 +7270,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 43.18) (xy 256.54 43.18)
+			(xy 274.32 43.18) (xy 276.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7324,13 +7310,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 58.42) (xy 256.54 88.9)
+			(xy 276.86 68.58) (xy 276.86 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c28c82e9-2604-40a5-8e0e-c4ea4c155ad2")
+	)
+	(wire
+		(pts
+			(xy 271.78 83.82) (xy 271.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a34a8f-00a3-4b22-874a-35f1659ea7b0")
 	)
 	(wire
 		(pts
@@ -7384,7 +7380,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 43.18) (xy 254 43.18)
+			(xy 271.78 43.18) (xy 274.32 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7524,7 +7520,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 163.83) (xy 20.32 168.91)
+			(xy 20.32 163.83) (xy 20.32 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7554,7 +7550,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 176.53) (xy 29.21 185.42)
+			(xy 29.21 177.8) (xy 29.21 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7604,7 +7600,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 185.42) (xy 83.82 172.72)
+			(xy 36.83 167.64) (xy 36.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ca9259-fa15-41d2-9bc0-c38f4f59b4cc")
+	)
+	(wire
+		(pts
+			(xy 83.82 185.42) (xy 83.82 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7704,7 +7710,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 109.22) (xy 251.46 111.76)
+			(xy 251.46 22.86) (xy 251.46 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7732,9 +7738,53 @@
 		)
 		(uuid "fa1e6927-3c35-4869-ba65-4e8f3d6ac832")
 	)
-	(text "pin 48 is crossed out in original schematic confirm"
+	(text_box "Clock input should accept \n3.3V clock signal \nfrom 4 to 40 Mhz."
 		(exclude_from_sim no)
-		(at 268.986 145.542 0)
+		(at 250.19 135.89 0)
+		(size 30.48 7.62)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "71481424-a189-41d9-bef6-bf5d59580335")
+	)
+	(text_box "Note that bootstrap option for\ndisabling internal LDO is unavailable in this package.\nLDO must be disabled in software by configuring the EVRI3CON register."
+		(exclude_from_sim no)
+		(at 88.9 129.54 0)
+		(size 54.61 10.16)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d3d5a172-935f-4106-9ceb-a6688cfbc0c4")
+	)
+	(text "pin 48 is crossed out in original schematic but still has the net label what to do\n"
+		(exclude_from_sim no)
+		(at 278.638 153.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7919,7 +7969,7 @@
 		(uuid "5f158fd1-367c-4cc4-8ed2-9c89ebd8fa78")
 	)
 	(label "HWCFG4"
-		(at 172.72 25.4 180)
+		(at 170.18 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8128,7 +8178,7 @@
 		(uuid "e0b2efc4-c2fb-49ad-b7e2-21768baba433")
 	)
 	(label "RST"
-		(at 251.46 83.82 180)
+		(at 264.16 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8214,71 +8264,6 @@
 			(justify right bottom)
 		)
 		(uuid "fedc38bd-dbb8-4141-9590-389732324878")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 36.83 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09cbba79-6a33-4a42-97f8-e2b10926fb1d")
-		(property "Reference" "#PWR07"
-			(at 36.83 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 36.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c88554e-6e98-48a6-b67a-9dbb928a1caf")
-		)
-		(instances
-			(project ""
-				(path "/2c498deb-ca49-459e-a075-f8ee1b693301"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "tutorial_2_library:CW312T-Template")
@@ -8599,7 +8584,7 @@
 	)
 	(symbol
 		(lib_id "0603_Yageo_Res:RES_10k_0603")
-		(at 256.54 54.61 90)
+		(at 276.86 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8607,7 +8592,7 @@
 		(dnp no)
 		(uuid "1e201caa-ef45-4de2-bfa0-789eb99cfefb")
 		(property "Reference" "R7"
-			(at 259.207 53.721 90)
+			(at 279.527 63.881 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +8600,7 @@
 			)
 		)
 		(property "Value" "RES_10k_0603"
-			(at 327.66 43.18 0)
+			(at 347.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8624,7 +8609,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 323.85 54.61 0)
+			(at 344.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +8618,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 318.77 24.13 0)
+			(at 339.09 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +8627,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 316.23 34.29 0)
+			(at 336.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8636,7 @@
 			)
 		)
 		(property "Display Value" "10k"
-			(at 259.588 55.626 90)
+			(at 279.908 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8644,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 327.66 63.5 0)
+			(at 347.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8653,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0710KL"
-			(at 321.31 64.77 0)
+			(at 341.63 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8662,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 330.2 69.85 0)
+			(at 350.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8671,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "311-10.0KHRCT-ND"
-			(at 330.2 41.91 0)
+			(at 350.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +8680,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 259.715 55.245 0)
+			(at 280.035 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +8689,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 262.255 55.245 0)
+			(at 282.575 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8910,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 251.46 109.22 0)
+		(at 251.46 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8933,7 +8918,7 @@
 		(dnp no)
 		(uuid "2710453e-5a96-4a4e-9787-715385318295")
 		(property "Reference" "#PWR016"
-			(at 251.46 113.03 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +8927,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 251.46 105.156 0)
+			(at 251.46 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +8935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 109.22 0)
+			(at 251.46 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +8944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 109.22 0)
+			(at 251.46 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8968,7 +8953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 251.46 109.22 0)
+			(at 251.46 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9664,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_2u2_10V_0603")
-		(at 29.21 172.72 90)
+		(at 29.21 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9687,7 +9672,7 @@
 		(dnp no)
 		(uuid "46845c15-4bfd-4aac-af36-bd2662111394")
 		(property "Reference" "C2"
-			(at 31.496 171.704 90)
+			(at 31.496 172.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9696,7 +9681,7 @@
 			)
 		)
 		(property "Value" "CAP_2u2_10V_0603"
-			(at 48.26 165.1 0)
+			(at 48.26 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +9690,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 44.45 176.53 0)
+			(at 44.45 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +9699,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 39.37 163.83 0)
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +9708,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 10V X7R 0603"
-			(at 36.83 173.99 0)
+			(at 36.83 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,7 +9717,7 @@
 			)
 		)
 		(property "Display Value" "2u2"
-			(at 31.496 173.482 90)
+			(at 31.496 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9726,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 48.26 185.42 0)
+			(at 48.26 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,7 +9735,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KPX7R6BB225"
-			(at 41.91 176.53 0)
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +9744,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 50.8 191.77 0)
+			(at 50.8 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +9753,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KPX7R6BB225CT-ND"
-			(at 50.8 163.83 0)
+			(at 50.8 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +9762,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 33.02 172.72 0)
+			(at 33.02 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,7 +9771,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 34.29 172.72 0)
+			(at 34.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10182,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 82.55 44.45 0)
+		(at 82.55 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10205,7 +10190,7 @@
 		(dnp no)
 		(uuid "685b84bd-27b0-482c-8eb9-b1e77811893b")
 		(property "Reference" "#PWR05"
-			(at 82.55 48.26 0)
+			(at 82.55 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10199,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 82.55 40.64 0)
+			(at 82.55 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,7 +10207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 44.45 0)
+			(at 82.55 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +10216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 44.45 0)
+			(at 82.55 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 44.45 0)
+			(at 82.55 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,7 +10247,7 @@
 	)
 	(symbol
 		(lib_id "0603_Yageo_Res:RES_10k_0603")
-		(at 251.46 54.61 90)
+		(at 271.78 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10270,7 +10255,7 @@
 		(dnp no)
 		(uuid "6afc3f42-2a1f-4d39-b68e-12f38dcad5c2")
 		(property "Reference" "R8"
-			(at 248.92 53.848 90)
+			(at 269.24 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10278,7 +10263,7 @@
 			)
 		)
 		(property "Value" "RES_10k_0603"
-			(at 322.58 43.18 0)
+			(at 342.9 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 318.77 54.61 0)
+			(at 339.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10296,7 +10281,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 313.69 24.13 0)
+			(at 334.01 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10290,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 311.15 34.29 0)
+			(at 331.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10314,7 +10299,7 @@
 			)
 		)
 		(property "Display Value" "10k"
-			(at 248.412 55.372 90)
+			(at 268.732 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10307,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 322.58 63.5 0)
+			(at 342.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10316,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0710KL"
-			(at 316.23 64.77 0)
+			(at 336.55 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +10325,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 325.12 69.85 0)
+			(at 345.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10334,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "311-10.0KHRCT-ND"
-			(at 325.12 41.91 0)
+			(at 345.44 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10343,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 254.635 55.245 0)
+			(at 274.955 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10352,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 257.175 55.245 0)
+			(at 277.495 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +10836,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 254 22.86 0)
+		(at 274.32 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10859,7 +10844,7 @@
 		(dnp no)
 		(uuid "77a7a870-fad7-43b9-b89c-0d22303837fa")
 		(property "Reference" "#PWR015"
-			(at 254 26.67 0)
+			(at 274.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10853,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 254 19.05 0)
+			(at 274.32 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +10861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 22.86 0)
+			(at 274.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +10870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 22.86 0)
+			(at 274.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10894,7 +10879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 254 22.86 0)
+			(at 274.32 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10916,7 +10901,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_2u2_10V_0603")
-		(at 83.82 168.91 90)
+		(at 83.82 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10924,7 +10909,7 @@
 		(dnp no)
 		(uuid "79edf837-a252-4f94-81d5-58d688a6c239")
 		(property "Reference" "C3"
-			(at 86.106 167.894 90)
+			(at 86.106 172.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +10918,7 @@
 			)
 		)
 		(property "Value" "CAP_2u2_10V_0603"
-			(at 102.87 161.29 0)
+			(at 102.87 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,7 +10927,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 99.06 172.72 0)
+			(at 99.06 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +10936,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 93.98 160.02 0)
+			(at 93.98 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +10945,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 10V X7R 0603"
-			(at 91.44 170.18 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10969,7 +10954,7 @@
 			)
 		)
 		(property "Display Value" "2u2"
-			(at 86.106 169.672 90)
+			(at 86.106 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,7 +10963,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 102.87 181.61 0)
+			(at 102.87 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,7 +10972,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KPX7R6BB225"
-			(at 96.52 172.72 0)
+			(at 96.52 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +10981,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 105.41 187.96 0)
+			(at 105.41 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +10990,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KPX7R6BB225CT-ND"
-			(at 105.41 160.02 0)
+			(at 105.41 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,7 +10999,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 87.63 168.91 0)
+			(at 87.63 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +11008,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 88.9 168.91 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11645,7 +11630,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_2u2_10V_0603")
-		(at 92.71 168.91 90)
+		(at 92.71 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11653,7 +11638,7 @@
 		(dnp no)
 		(uuid "ba29217a-6fd1-48dc-8986-74691fc9b283")
 		(property "Reference" "C4"
-			(at 94.996 167.894 90)
+			(at 94.996 172.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +11647,7 @@
 			)
 		)
 		(property "Value" "CAP_2u2_10V_0603"
-			(at 111.76 161.29 0)
+			(at 111.76 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11656,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 107.95 172.72 0)
+			(at 107.95 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,7 +11665,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 102.87 160.02 0)
+			(at 102.87 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +11674,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 10V X7R 0603"
-			(at 100.33 170.18 0)
+			(at 100.33 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +11683,7 @@
 			)
 		)
 		(property "Display Value" "2u2"
-			(at 94.996 169.672 90)
+			(at 94.996 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11707,7 +11692,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 111.76 181.61 0)
+			(at 111.76 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11716,7 +11701,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KPX7R6BB225"
-			(at 105.41 172.72 0)
+			(at 105.41 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11725,7 +11710,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 114.3 187.96 0)
+			(at 114.3 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +11719,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KPX7R6BB225CT-ND"
-			(at 114.3 160.02 0)
+			(at 114.3 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11743,7 +11728,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 96.52 168.91 0)
+			(at 96.52 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +11737,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 97.79 168.91 0)
+			(at 97.79 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +11762,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_2u2_10V_0603")
-		(at 20.32 172.72 90)
+		(at 20.32 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11785,7 +11770,7 @@
 		(dnp no)
 		(uuid "babb4f95-3b39-4432-beca-682985830816")
 		(property "Reference" "C1"
-			(at 22.606 171.704 90)
+			(at 22.606 172.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +11779,7 @@
 			)
 		)
 		(property "Value" "CAP_2u2_10V_0603"
-			(at 39.37 165.1 0)
+			(at 39.37 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +11788,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 35.56 176.53 0)
+			(at 35.56 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,7 +11797,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 30.48 163.83 0)
+			(at 30.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,7 +11806,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 10V X7R 0603"
-			(at 27.94 173.99 0)
+			(at 27.94 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11830,7 +11815,7 @@
 			)
 		)
 		(property "Display Value" "2u2"
-			(at 22.606 173.482 90)
+			(at 22.606 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11824,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 39.37 185.42 0)
+			(at 39.37 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11848,7 +11833,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KPX7R6BB225"
-			(at 33.02 176.53 0)
+			(at 33.02 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11857,7 +11842,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 41.91 191.77 0)
+			(at 41.91 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +11851,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KPX7R6BB225CT-ND"
-			(at 41.91 163.83 0)
+			(at 41.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11875,7 +11860,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 24.13 172.72 0)
+			(at 24.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11884,7 +11869,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 25.4 172.72 0)
+			(at 25.4 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12500,7 +12485,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V5")
-		(at 82.55 20.32 0)
+		(at 88.9 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12508,7 +12493,7 @@
 		(dnp no)
 		(uuid "d3cbe071-3b5d-4a84-b986-5acf5d418a87")
 		(property "Reference" "#PWR03"
-			(at 82.55 24.13 0)
+			(at 88.9 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +12502,7 @@
 			)
 		)
 		(property "Value" "+1V5"
-			(at 82.55 16.51 0)
+			(at 88.9 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,7 +12510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 20.32 0)
+			(at 88.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12534,7 +12519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 20.32 0)
+			(at 88.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12543,7 +12528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V5\""
-			(at 82.55 20.32 0)
+			(at 88.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
